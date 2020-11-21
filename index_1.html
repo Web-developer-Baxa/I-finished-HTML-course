@@ -1,0 +1,393 @@
+<!DOCTYPE html> <!-- ./Директива doctype необходима, чтобы браузер понимал как обрабатывать текущую веб-страничку, так как существует несколько версий языка HTML, а еще имеется XHTML (EXtensible HyperText Markup Language, расширенный язык разметки гипертекста), который похож на HTML, но различается с ним по синтаксису. -->
+<html lang="en">
+<head><!-- ./Тег head предназначен для хранения других элементов, цель которых  помочьбраузеру в работе с данными. Также внутри контейнера head находятся метатеги, которые используются для хранения информации предназначенной для браузеров и поисковых систем. Например, механизмы поисковых систем обращаются к метатегам дляплучения описания сайта, ключевых слов и других данных. Содержимое тега head не отображается напрямую на веб-странице, за исключением тега title устанавливающего заголовок окна веб-страницы. Внутри контейнера head допускается размещатьследующие элементы: base, basefont, bgsound, link, meta, script, style, title. -->
+	<meta charset="UTF-8"><!-- ./определяем кодировку utf-8 -->
+	<!-- SEO -->
+		<meta name="description" content="Lesson html">
+		<meta name="keywords" content="html, websity, Baxa, lesson ...">
+		<meta name="author" content="Bakhtiyor Bobokalonov">
+	<!-- ./SEO -->
+
+	<!-- For mobile device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- ./For mobile device -->
+
+<!-- For mobile & no resize -->
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<!-- ./For mobile & no resize -->
+	<link rel="shortcut icon" href="html.ico" type="image/x-icon"><!-- ./Устанавливает связь с внешним документом вроде файла со стилями или со шрифтами. В отличие от тега a, тег link размещается всегда внутри контейнера head и не создает ссылку. -->
+	<title>Document</title><!-- ./Определяет заголовок документа. Элемент title не является частью документа и не показывается напрямую на веб-странице. В операционной системе Windows текст заголовка отображается в левом верхнем углу окна браузера. Допускается использовать только один тег title на документ и размещать его в контейнере head. -->
+</head>
+<body>
+<header class="header">
+<div class="contaioner">
+		<h1 align="center" class="header">знакомство с текстом в html</h1>
+<br>
+	<!-- alls title -->
+		<h1>header{1}</h1>
+		<h2>header{2}</h2>
+		<h3>header{3}</h3>
+		<h4>header{4}</h4>
+		<h5>header{5}</h5>
+		<h6>header{6}</h6>
+<br>
+<hr>
+	<!-- paragraf -->
+		<p class="paragraf">Параграф в HTML совсем другой. Параграфы в HTML — это всего лишь неразрывная последовательность фразовых элементов, то есть чисто структурная, а не смысловая сущность. Параграфы существуют даже без тега <b>p</b>. А тег <b>p</b> позволяет лишь явно выделять параграфы, группируя элементы с фразовым типом содержимого</p>
+<br>
+<hr>
+	<!-- information about author -->
+		<p>name: Bakhtiyor Bobob agre: 17</p>
+		<address><a href="#">YouTube </a><a href="#">Instagram </a><a href="#">VK </a><a href="#">Telegram</a></address>
+<br>
+<hr>
+	<!-- quote and after -->
+		<q>
+			
+				Hello welcome to "Web-developer-Baxa" GitHub
+			
+		</q>
+		<address><a href="#">YouTube </a><a href="#">Instagram </a><a href="#">VK </a><a href="#">Telegram</a></address>
+		<br>
+		<hr>
+
+	<!-- time -->
+		<time>2020-11-21</time>
+		<br>
+
+		<time datetime="2020-11-21">стартую обучение HTML</time>
+		<br>
+		<hr>
+
+	<!-- Bold & Italik, Typing, Deeted text -->
+		<b>Bold text</b>
+		<br>
+
+		<i>Italik text</i>
+		<br>
+
+		<tt>typing text</tt>
+		<br>
+
+		<s>Delete text</s>
+		<hr>
+
+	<!-- логические ударения текста -->
+		<strong>Strong accent text</strong>
+		<br>
+
+		<em>Itelic accent text</em>
+		<br>
+		<hr>
+
+	<!-- code example -->
+	<code>
+	"
+		const = arays{
+			name: "BaxaBobo web developer",
+			age: 17,
+			adderss: Istanbul
+	};
+	console.log(arays);
+	"
+	</code>
+	<!-- Save text code format -->
+	<pre>
+		<code>
+const = arays{
+ name: "BaxaBobo web developer",
+ age: 17,
+ adderss: Istanbul
+};
+console.log(arays);	
+		</code>
+	</pre>
+
+	<!-- ./ smaill text -->
+	<h2>
+		"Hello, world!"
+		<small>Smail text</small>
+		"hey my frend"
+	</h2> 
+	<!-- Big text -->
+	<h2>
+		"Hello,"
+		<big>Big text</big>
+		"how, are you?"
+	</h2>
+
+	<!-- Sup text -->
+	<h2>
+		X<sup>2</sup> = 213
+	</h2>
+	<!-- Sub text -->
+	<h2>
+		H<sub>2</sub>O
+	</h2>
+	<br>
+	<hr>
+
+
+	<!-- unordered list -->
+	<ul>
+		<li>Web-developer-Baxa</li>
+		<li>web.developer.baxa</li>
+		<li>@no_name_no</li>
+	</ul>
+	<hr>
+
+	<!-- ordered list -->
+	<ol>
+		<li>Web-developer-Baxa</li>
+		<li>web.developer.baxa</li>
+		<li>@no_name_no</li>
+	</ol>
+	<hr>
+
+	<ol start="4">
+		<li>Web-developer-Baxa</li>
+		<li>web.developer.baxa</li>
+		<li>@no_name_no</li>
+	</ol>
+	<hr>
+	<ol reversed start="9">
+		<li>Web-developer-Baxa</li>
+		<li>web.developer.baxa</li>
+		<li>@no_name_no</li>
+	</ol>
+	<hr>
+	<ul>
+		<li>my alls veb sity</li>
+		<ol><li><a href="#">web sity Mogo</a></li></ol>
+	</ul>
+	<hr>
+
+	<!-- definition list  -->
+	<dl>
+		<dt>Front-end?</dt>
+		<dd>Фронтэнд (англ. frontend) — клиентская сторона пользовательского интерфейса к программно-аппаратной части сервиса. ... backend) — программно-аппаратная часть сервиса. Фронт- и бэкэнд — это вариант архитектуры программного обеспечения</dd>
+		<dt>Back-end?</dt>
+		<dd>Бэкэнд (англ. backend) — программно-аппаратная часть сервиса. Фронт- и бэкэнд — это вариант архитектуры программного обеспечения. Термины появились в программной инженерии вследствие развития принципа разделения ответственности между внешним представлением и внутренней реализацией.</dd>
+	</dl>
+	<hr>
+
+
+	<!-- simple image -->
+		<img src="https://picsum.photos/300/300" alt="Just image">
+	
+	<!-- responsive images -->
+		<picture>
+			<source media="(min-width: 1024px)" srcset="https://picsum.photos/600/600">
+			<source media="(min-width: 768px)" srcset="https://picsum.photos/300/300">
+			<source media="(min-width: 360px)" srcset="https://picsum.photos/100/100">
+			<img srcset="https://picsum.photos/300/300" alt="just image">
+		</picture>
+		<hr>
+
+	<!-- Table -->
+		<table>
+			<caption>Team number list</caption>
+			<thead>
+				<tr>
+					<td>Personal</td>
+					<td>number</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Number:</td>
+					<td>+90 555 099 07 40</td>
+				</tr>
+				<tr>
+					<td>Number:</td>
+					<td>+90 542 333 99 70</td>
+				</tr>
+			</tbody>
+		</table>
+		<hr>
+
+		<!-- List for options -->
+			<input type="text" list="works">
+			<datalist id="works">
+				<option value="Front-end"></option>
+				<option value="Back-end"></option>
+				<option value="Full-stack"></option>
+			</datalist>
+			<hr>
+		
+		<!-- progress -->
+			<progress value="10" max="100"></progress>
+				<br>
+			<hr>
+		<!-- mark -->
+		<mark>Marker</mark>
+		<h2>
+			"Hello!,"
+			<mark>Marker</mark>
+			"how are you"
+		</h2>
+		<hr>
+
+		<!-- Noscript -->
+		<noscript>Plase down in brawers JavaScript</noscript>
+
+	<!-- input -->
+			<input type="text">
+			<hr>
+		<!-- input number -->
+			<input type="number">
+			<br>
+			<input type="number" min="1" max="10">
+			<br>
+			<input type="number" step="5">
+			<hr>
+
+		<!-- number password -->
+			<input type="password">
+			<hr>
+
+		<!-- range -->
+			<input type="range">
+			<hr>
+
+		<!-- date -->
+		<input type="date">
+		<hr>
+
+		<!-- Color -->
+		<input type="color">
+		<hr>
+
+		<!-- submit -->
+		<input type="submit">
+		<br>
+		<!-- reset -->
+		<input type="reset">
+		<hr>
+
+		<!-- email -->
+		<input type="email">
+		<hr>
+
+		<!-- url -->
+		<input type="url">
+		<hr>
+
+		<!-- telephone -->
+		<input type="tel">
+		<hr>
+
+		<!-- Search -->
+		<input type="search" placeholder="search">
+		<hr>
+
+		<!-- datetime-local -->
+		<input type="datetime-local">
+		<hr>
+
+		<!-- month -->
+		<input type="month">
+		<hr>
+
+		<!-- time -->
+		<input type="time">
+		<hr>
+
+		<!-- week -->
+		<input type="week">
+		<hr>
+
+		<!-- hidden -->
+		<input type="hidden" value="Web-developer-Baxa">
+		<hr>
+
+		<!-- File -->
+		<input type="file">
+		<br>
+		<input type="file" multiple>
+		<hr>
+
+		<!-- Chekbox -->
+			<input type="checkbox" value="Car-№1"><br>
+			<input type="checkbox" value="Car-№2"><br>
+			<input type="checkbox" value="Car-№3"><br>
+			<hr>
+
+			<!-- Radio -->
+			<input type="radio" name="book" value="python"><br>
+			<input type="radio" name="book" value="JavaScript"><br>
+			<input type="radio" name="book" value="Ruby"><br>
+			<hr>
+
+			<!-- Checkbox & radio cheked element -->
+			<!-- Chekbox -->
+			<input type="checkbox" value="Car-№1"><br>
+			<input type="checkbox" value="Car-№2" checked><br>
+			<input type="checkbox" value="Car-№3"><br>
+			<hr>
+
+			<!-- Radio -->
+			<input type="radio" name="book" value="JavaScript" checked><br>
+			<input type="radio" name="book" value="python"><br>
+			<input type="radio" name="book" value="Ruby"><br>
+			<hr>
+
+			<!-- cheket is label -->
+			<!-- Radio -->
+			<label><input type="radio" name="direckt" value="Nazokat">Back-end</label><br>
+			<label><input type="radio" name="direckt" value="Pigina">Full-stack</label><br>
+			<label><input type="radio" name="direckt" value="Web-developer-Baxa">Front-end</label><br>
+			<hr>
+
+			<!-- Checkbox -->
+			<label><input type="checkbox" name="Baxa" value="sport">Boks</label><br>
+			<label><input type="checkbox" name="Baxa" value="sport">post</label><br>
+			<label><input type="checkbox" name="Baxa" value="sport">kill</label><br>
+			<hr>
+
+		<!-- video -->
+		<video src="videoplayback.mp4" width="340" controls poster="video-bg.jpg" preload="auto"></video>
+		<hr>
+
+		<!-- audi -->
+		<audio src="1596517943_isyan_tetick_-_patlamaya_devam.mp3" controls></audio>
+
+		<!-- ID -->
+		<h1 id="headers">Hello, id in html</h1>
+		<hr>
+
+		<!-- class -->
+		<h2 class="text item">Hello, class in html</h2>
+		<hr>
+
+		<!-- Title -->
+		<h2 title="HyperText Markup Language">HTML</h2>
+		<hr>
+
+		<!-- contenteditable -->
+		<h2 contenteditable="true">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, autem.</h2>
+		<hr>
+
+		<!-- spellcheck -->
+		<textarea spellcheck="true" rows="20" cols="40" name="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, nisi.</textarea>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ./container -->
+</div>
+
+</header>
+
+
+</body>
+</html>
